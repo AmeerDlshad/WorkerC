@@ -15,6 +15,7 @@ import (
 var httpHandler http.Handler
 
 func init() {
+
 	var handleRequestCallback js.Func
 	handleRequestCallback = js.FuncOf(func(this js.Value, args []js.Value) any {
 		if len(args) > 2 {

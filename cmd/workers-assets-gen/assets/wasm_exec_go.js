@@ -17,6 +17,13 @@
     }
     return oldFetch(input, init);
   };
+  const oldFetch2 = globalThis.fetch;
+  globalThis.fetch = (input, init) => {
+    if (init) {
+      init.credentials = undefined;
+    }
+    return oldFetch2(input, init);
+  };
   if (!globalThis.fs) {
     let outputBuf = "";
     globalThis.fs = {

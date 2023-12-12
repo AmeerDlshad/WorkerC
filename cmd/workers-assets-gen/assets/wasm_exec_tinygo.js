@@ -22,6 +22,13 @@
       }
       return oldFetch(input, init);
     };
+    const oldFetch2 = globalThis.fetch;
+    globalThis.fetch = (input, init) => {
+      if (init) {
+        init.credentials = undefined;
+      }
+      return oldFetch2(input, init);
+    };
     // global already exists
   } else if (typeof window !== "undefined") {
     window.global = window;
