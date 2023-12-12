@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/syumai/workers/cloudflare"
-	"github.com/syumai/workers/cloudflare/cron"
+	"github.com/AmeerDlshad/WorkerC/cloudflare"
+	"github.com/AmeerDlshad/WorkerC/cloudflare/cron"
 )
 
 func task(ctx context.Context, event *cron.Event) error {

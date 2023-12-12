@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
+	workers "github.com/AmeerDlshad/WorkerC"
 	"github.com/syumai/tinyutil/httputil"
-	"github.com/syumai/workers"
 )
 
 const (

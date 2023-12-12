@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/syumai/workers"
+	workers "github.com/AmeerDlshad/WorkerC"
 )
 
 func main() {

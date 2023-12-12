@@ -1,10 +1,10 @@
-module github.com/syumai/workers/_examples/basic-auth-server
+module github.com/AmeerDlshad/WorkerC/_examples/basic-auth-server
 
 go 1.21.3
 
 require (
 	github.com/syumai/tinyutil v0.3.0
-	github.com/syumai/workers v0.5.1
+	github.com/AmeerDlshad/WorkerC v0.5.1
 )
 
-replace github.com/syumai/workers => ../../
+replace github.com/AmeerDlshad/WorkerC => ../../

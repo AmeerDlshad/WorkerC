@@ -1,7 +1,7 @@
 # pages-tinygo
 
 - A template for starting a Cloudflare Pages Functions project with tinygo.
-- This template uses the [`workers`](https://github.com/syumai/workers) package to run.
+- This template uses the [`workers`](https://github.com/AmeerDlshad/WorkerC) package to run.
 
 ## Usage
 
@@ -12,21 +12,22 @@
 - Node.js
 - [wrangler](https://developers.cloudflare.com/workers/wrangler/)
   - just run `npm install -g wrangler`
+
 * tinygo 0.29.0 or later
 
 ## Getting Started
 
-* If not already installed, please install the [gonew](https://pkg.go.dev/golang.org/x/tools/cmd/gonew) command.
+- If not already installed, please install the [gonew](https://pkg.go.dev/golang.org/x/tools/cmd/gonew) command.
 
 ```console
 go install golang.org/x/tools/cmd/gonew@latest
 ```
 
-* Create a new project using this template.
+- Create a new project using this template.
   - Second argument passed to `gonew` is a module path of your new app.
 
 ```console
-gonew github.com/syumai/workers/_templates/cloudflare/pages-tinygo your.module/my-app # e.g. github.com/syumai/my-app
+gonew github.com/AmeerDlshad/WorkerC/_templates/cloudflare/pages-tinygo your.module/my-app # e.g. github.com/syumai/my-app
 cd my-app
 go mod tidy
 make build # build Go Wasm binary
@@ -67,4 +68,3 @@ Hello, Hello world!
 $ curl http://localhost:8787/api/hello3
 Hello, Hello, Hello world!
 ```
-

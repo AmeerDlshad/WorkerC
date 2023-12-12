@@ -6,9 +6,9 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"github.com/syumai/workers"
-	"github.com/syumai/workers/cloudflare"
-	"github.com/syumai/workers/cloudflare/fetch"
+	workers "github.com/AmeerDlshad/WorkerC"
+	"github.com/AmeerDlshad/WorkerC/cloudflare"
+	"github.com/AmeerDlshad/WorkerC/cloudflare/fetch"
 )
 
 func handler(w http.ResponseWriter, req *http.Request) {

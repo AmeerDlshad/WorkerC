@@ -4,7 +4,7 @@ import (
 	"context"
 	"syscall/js"
 
-	"github.com/syumai/workers/internal/runtimecontext"
+	"github.com/AmeerDlshad/WorkerC/internal/runtimecontext"
 )
 
 /**

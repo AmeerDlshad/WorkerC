@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"syscall/js"
 
-	"github.com/syumai/workers/internal/jshttp"
-	"github.com/syumai/workers/internal/jsutil"
-	"github.com/syumai/workers/internal/runtimecontext"
+	"github.com/AmeerDlshad/WorkerC/internal/jshttp"
+	"github.com/AmeerDlshad/WorkerC/internal/jsutil"
+	"github.com/AmeerDlshad/WorkerC/internal/runtimecontext"
 )
 
 var httpHandler http.Handler

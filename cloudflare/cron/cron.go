@@ -7,8 +7,8 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/syumai/workers/internal/jsutil"
-	"github.com/syumai/workers/internal/runtimecontext"
+	"github.com/AmeerDlshad/WorkerC/internal/jsutil"
+	"github.com/AmeerDlshad/WorkerC/internal/runtimecontext"
 )
 
 // Event represents information about the Cron that invoked this worker.

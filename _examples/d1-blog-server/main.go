@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/syumai/workers"
-	"github.com/syumai/workers/_examples/d1-blog-server/app"
+	workers "github.com/AmeerDlshad/WorkerC"
+	"github.com/AmeerDlshad/WorkerC/_examples/d1-blog-server/app"
 )
 
 func main() {

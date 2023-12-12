@@ -4,7 +4,7 @@ import (
 	"context"
 	"syscall/js"
 
-	"github.com/syumai/workers/cloudflare/internal/cfruntimecontext"
+	"github.com/AmeerDlshad/WorkerC/cloudflare/internal/cfruntimecontext"
 )
 
 // Getenv gets a value of an environment variable.

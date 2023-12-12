@@ -1,7 +1,7 @@
 # worker-template-tinygo
 
 - A template for starting a Cloudflare Worker project with tinygo.
-- This template uses [`workers`](https://github.com/syumai/workers) package to run an HTTP server.
+- This template uses [`workers`](https://github.com/AmeerDlshad/WorkerC) package to run an HTTP server.
 
 ## Usage
 
@@ -16,17 +16,17 @@
 
 ## Getting Started
 
-* If not already installed, please install the [gonew](https://pkg.go.dev/golang.org/x/tools/cmd/gonew) command.
+- If not already installed, please install the [gonew](https://pkg.go.dev/golang.org/x/tools/cmd/gonew) command.
 
 ```console
 go install golang.org/x/tools/cmd/gonew@latest
 ```
 
-* Create a new project using this template.
+- Create a new project using this template.
   - Second argument passed to `gonew` is a module path of your new app.
 
 ```console
-gonew github.com/syumai/workers/_templates/cloudflare/worker-tinygo your.module/my-app # e.g. github.com/syumai/my-app
+gonew github.com/AmeerDlshad/WorkerC/_templates/cloudflare/worker-tinygo your.module/my-app # e.g. github.com/syumai/my-app
 cd my-app
 go mod tidy
 make dev # start running dev server

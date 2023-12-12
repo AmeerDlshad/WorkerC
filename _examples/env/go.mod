@@ -1,7 +1,7 @@
-module github.com/syumai/workers/_examples/env
+module github.com/AmeerDlshad/WorkerC/_examples/env
 
 go 1.21.3
 
-require github.com/syumai/workers v0.0.0
+require github.com/AmeerDlshad/WorkerC v0.0.0
 
-replace github.com/syumai/workers => ../../
+replace github.com/AmeerDlshad/WorkerC => ../../

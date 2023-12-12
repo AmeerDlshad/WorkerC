@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"syscall/js"
 
-	"github.com/syumai/workers/internal/jsutil"
+	"github.com/AmeerDlshad/WorkerC/internal/jsutil"
 )
 
 // Client is an HTTP client.

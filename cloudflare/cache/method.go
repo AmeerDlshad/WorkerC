@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"syscall/js"
 
-	"github.com/syumai/workers/internal/jshttp"
-	"github.com/syumai/workers/internal/jsutil"
+	"github.com/AmeerDlshad/WorkerC/internal/jshttp"
+	"github.com/AmeerDlshad/WorkerC/internal/jsutil"
 )
 
 // Put attempts to add a response to the cache, using the given request as the key.

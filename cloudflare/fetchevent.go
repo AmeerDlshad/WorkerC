@@ -4,8 +4,8 @@ import (
 	"context"
 	"syscall/js"
 
-	"github.com/syumai/workers/cloudflare/internal/cfruntimecontext"
-	"github.com/syumai/workers/internal/jsutil"
+	"github.com/AmeerDlshad/WorkerC/cloudflare/internal/cfruntimecontext"
+	"github.com/AmeerDlshad/WorkerC/internal/jsutil"
 )
 
 // WaitUntil extends the lifetime of the "fetch" event.

@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/syumai/workers"
-	"github.com/syumai/workers/cloudflare"
-	"github.com/syumai/workers/cloudflare/cache"
+	workers "github.com/AmeerDlshad/WorkerC"
+	"github.com/AmeerDlshad/WorkerC/cloudflare"
+	"github.com/AmeerDlshad/WorkerC/cloudflare/cache"
 )
 
 type responseWriter struct {

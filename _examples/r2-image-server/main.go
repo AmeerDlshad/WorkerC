@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/syumai/workers"
-	"github.com/syumai/workers/cloudflare"
+	workers "github.com/AmeerDlshad/WorkerC"
+	"github.com/AmeerDlshad/WorkerC/cloudflare"
 )
 
 // bucketName is R2 bucket name defined in wrangler.toml.

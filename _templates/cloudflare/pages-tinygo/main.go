@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
+	workers "github.com/AmeerDlshad/WorkerC"
 	"github.com/go-chi/chi/v5"
-	"github.com/syumai/workers"
 )
 
 func main() {
